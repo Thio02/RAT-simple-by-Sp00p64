@@ -15,7 +15,7 @@ from ctypes import *
 import asyncio
 import discord
 from discord import utils
-token = '' #Put the token of your discord bot here
+token = 'TOKEN HERE' #Put the token of your discord bot here
 global appdata
 appdata = os.getenv('APPDATA')
 client = discord.Client()
