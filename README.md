@@ -14,33 +14,18 @@ This project was originally made by https://github.com/Sp00p64/DiscordRAT, this 
 Credit goes to him for all the original modules and readme.md
 
 ## **Setup Guide:**
-You will first need to register a bot with the Discord developper portal and then add the bot to the server that you want (make sure bot as administrator privileges).
-Once the bot is created copy the token of your bot and paste it at line 18.
+You will first need to register a bot with the Discord developer portal and then add the bot to the Discord server that you want to use to control the bot (make sure the bot has administrator privileges in the Discord server).
+Once the bot is created copy the token of your bot and paste it at line 20.
 
 Install requirements :
 ```
 pip3 install -r requirements.txt
 ```
-Then if steps above were succesful after launching the python file, or executable , it will create a new channel and post a message on the server with a generated uuid.\
+Then if the steps above were successful, you can launch the python file by executing ```python DiscordRAT```. It will create a new channel and post a message on the server with a generated session number.\
 Now your bot should be available to use ! 
 
 **Requirements:**\
 Python3,Windows(x64)
-
-**Compiling to exe (optional):**\
-If you want to compile the bot to exe you can use PyInstaller.\
-Inside the directory of the bot execute 
-```
-PyInstaller --onefile --noconsole DiscordRAT.py
-```
-Or 
-``` 
-python3 -m PyInstaller --onefile --noconsole "DiscordRAT.py"
-```
-If an error occured during compiling try to import the discord module 
-```
-PyInstaller --onefile --noconsole --hidden-import=discord DiscordRAT.py
-```
 
 ## **Modules**
 ```
