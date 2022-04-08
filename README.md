@@ -8,6 +8,10 @@ This is a RAT controlled over Discord with over 20 post exploitation modules.
 This tool is for educational use only, the author will not be held responsible for any misuse of this tool.\
 This is my first project on github as such it is far from perfect,I will listen to any criticism as long as it is constructive.
 
+# Credits
+
+This project was originally made by https://github.com/Sp00p64/DiscordRAT, this entire readme.md is made by him too.
+Credit goes to him for all the original modules and readme.md
 
 ## **Setup Guide:**
 You will first need to register a bot with the Discord developper portal and then add the bot to the server that you want (make sure bot as administrator privileges).
