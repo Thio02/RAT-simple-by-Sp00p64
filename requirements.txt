@@ -1,0 +1,10 @@
+discord
+mss
+browserhistory
+pyautogui
+pynput
+pycaw
+win32gui
+win32con
+win32net
+zipfile
